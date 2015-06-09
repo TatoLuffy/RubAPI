@@ -1,0 +1,8 @@
+Library to access AWS Dynamo 
+
+https://github.com/seratch/AWScala
+
+Add line in \build.sbt: 
+		libraryDependencies += "com.github.seratch" %% "awscala" % "0.3.+"
+		
+		
