@@ -5,6 +5,9 @@
 # Home page
 GET     /                           controllers.Assets.at(path="/public", file="app/index.html")
 
-GET     /api/rubrick                 controllers.Rubrick.list
+GET     /api/posts                  controllers.Posts.list
+PUT     /api/post/:id/like          controllers.Posts.like(id: Int)
 
-#GET     /*file                      controllers.Assets.at(path="/public", file)
+GET     /*file                      controllers.Assets.at(path="/public", file)
+
+
